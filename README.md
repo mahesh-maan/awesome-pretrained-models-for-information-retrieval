@@ -7,9 +7,7 @@
 
 # awesome-pretrained-models-for-information-retrieval 
 
-> A curated list of awesome papers related to pre-trained models for information retrieval (a.k.a., **pretraining for IR**). If there are any papers I missed, please let me know! And any feedback and contribution are welcome! 
-
-
+> A curated list of awesome papers related to pre-trained models for information retrieval (a.k.a., **pretraining for IR**). If there are any papers I missed, please let me know! And any feedback and contribution are welcome!
 
 ## Pretraining for IR
 
@@ -77,7 +75,7 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 - [Context-Aware Document Term Weighting for Ad-Hoc Search.](https://dl.acm.org/doi/pdf/10.1145/3366423.3380258) *Zhuyun Dai et.al.* WWW 2020. [[code](https://github.com/AdeDZY/DeepCT/tree/master/HDCT)] (**HDCT**)
 - [Learning Term Discrimination.](https://arxiv.org/pdf/2004.11759.pdf) *Jibril Frej et.al.* SIGIR 2020. (**IDF-reweighting**)
 - [COIL: Revisit Exact Lexical Match in Information Retrieval with Contextualized Inverted List.](https://arxiv.org/pdf/2104.07186.pdf) *Luyu Gao et.al.* NAACL 2020. [[code](https://github.com/luyug/COIL)] (**COIL**)
-- [Learning Passage Impacts for Inverted Indexes.](https://arxiv.org/pdf/2104.12016.pdf) *Antonio Mallia et.al.* SIGIR 2021 short. [[code](https://github.com/DI4IR/SIGIR2021)] (**DeepImapct**)
+- [Learning Passage Impacts for Inverted Indexes.](https://arxiv.org/pdf/2104.12016.pdf) *Antonio Mallia et.al.* SIGIR 2021 short. [[code](https://github.com/DI4IR/SIGIR2021)] (**DeepImpact**)
 
 
 #### Query or document expansion
@@ -153,9 +151,9 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 #### Discriminative ranking models
 
 ##### Representation-focused
-- [Understanding the Behaviors of BERT in Ranking.](https://arxiv.org/pdf/1904.07531.pdf) *Yifan Qiao et.al.* Aixiv 2019. (**Representation-focused and Interanction-focused**)
+- [Understanding the Behaviors of BERT in Ranking.](https://arxiv.org/pdf/1904.07531.pdf) *Yifan Qiao et.al.* Aixiv 2019. (**Representation-focused and Interaction-focused**)
 
-##### Interanction-focused
+##### Interaction-focused
 - [Passage Re-ranking with BERT.](https://arxiv.org/pdf/1901.04085.pdf) *Rodrigo Nogueira et.al.* [[code](https://github.com/nyu-dl/dl4marco-bert)] (**monoBERT: Maybe the first work on applying BERT to IR**)
 - [Multi-Stage Document Ranking with BERT,](https://arxiv.org/pdf/1910.14424.pdf) [The Expando-Mono-Duo Design Pattern for Text Ranking with Pretrained Sequence-to-Sequence Models.](https://arxiv.org/pdf/2101.05667.pdf) *Rodrigo Nogueira et.al.* Arxiv 2020. (**Expando-Mono-Duo: doc2query+pointwise+pairwise**)
 - [CEDR: Contextualized Embeddings for Document Ranking.](https://arxiv.org/pdf/1904.07094.pdf) *Sean MacAvaney et.al.* SIGIR 2020 short. [[code](https://github.com/Georgetown-IR-Lab/cedr)] (**CEDR: BERT+neuIR model**)
@@ -167,7 +165,7 @@ For people who want to acquire some basic & advanced knowledge about neural mode
 
 
 #### Hybrid ranking models
-- [Generalizing Discriminative Retrieval Models using Generative Tasks.](https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1414) *Bingsheng Liu, Hamed Zamani et.al.* WWW 2021. (**GDMTL,joint discriminative and generative model with multitask learning**)
+- [Generalizing Discriminative Retrieval Models using Generative Tasks.](https://ciir-publications.cs.umass.edu/pub/web/getpdf.php?id=1414) *Bingsheng Liu, Hamed Zamani et.al.* WWW 2021. (**GDMTL, joint discriminative and generative model with multitask learning**)
 
 ### Long Document Processing Techniques
 #### Passage score aggregation
